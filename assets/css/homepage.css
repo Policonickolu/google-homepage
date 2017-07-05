@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#container {
+}
+
+#main {
+	background-color: red;
+	padding-bottom: 137px;
+}
+
+#grid {
+	background-image: url(../img/palette.png);
+	background-size: 528px 68px;
+	background-position: -132px -33px;
+	width: 30px;
+	height: 30px;
+}
+
+#logo {
+	background: url(../img/logo.png) no-repeat;
+	width: 272px;
+	height: 92px;
+}
+
+#country {
+	position: relative;
+	top: 76px;
+	left: 215px;
+}
+
+#form {
+	margin-top: 0px;
+	min-width: 980px;
+}
+
+#form >form {
+	width: 1139px;
+	margin: 0 auto;
+}
+
+#form > form > div {
+	padding: 0px 284px 0px 284px;
+}
