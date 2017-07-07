@@ -10,49 +10,54 @@
 
 <body>
     <div id="container">
-
-		<div id=header>
-        	<ul>
-        		<li>Gmail</li>
-        		<li>Images</li>
-        		<li id="grid"></li>
-        		<li>Connexion</li>
-        	</ul>
-		</div>
-
+        <div id=header>
+            <ul>
+                <li>
+                    <a class="link" href="">Gmail</a>
+                </li>
+                <li>
+                    <a class="link" href="">Images</a>
+                </li>
+                <li id="grid"><a href=""></a></li>
+                <li id="signin">Connexion</li>
+            </ul>
+        </div>
         <div id="main">
             <div id="logo">
                 <div id="country">France</div>
             </div>
         </div>
-
         <div id="form">
-        	<form>
-	        	<div>
-		            <div>
-		            	<input type="text" name="q">
-		            </div>
-		            <center>
-		            	<input type="button" name="recherche" value="Recherche Google">
-		            	<input type="button" name="chance" value="J'ai de la chance">
-		            </center>
-		        </div>
-    		</form>
+            <form>
+                <div id="querybar">
+                    <input id="query" type="text" name="q">
+                </div>
+                <div id="querybuttons">
+                    <center>
+                        <input type="submit" name="recherche" value="Recherche Google">
+                        <input type="submit" name="chance" value="J'ai de la chance">
+                    </center>
+                </div>
+            </form>
+            <div id="domaininfo">
+                <center>
+                    Le domaine Google.fr est disponible en :
+                    <a href="">English</a>
+                </center>
+            </div>
         </div>
-
-        <div id="footer">
-        	<ul class="footer-left">
-        		<li><a href="">Publicité</a></li>
-        		<li><a href="">Entreprise</a></li>
-        		<li><a href="">À propos</a></li>
-        	</ul>
-        	<ul class="footer-right">
-        		<li><a href="">Confidentialité</a></li>
-        		<li><a href="">Conditions</a></li>
-        		<li><a href="">Paramètres</a></li>
-        	</ul>
+        <div id="footer" class="link">
+            <ul class="footer-left">
+                <li><a href="">Publicité</a></li>
+                <li><a href="">Entreprise</a></li>
+                <li><a href="">À propos</a></li>
+            </ul>
+            <ul class="footer-right">
+                <li><a href="">Confidentialité</a></li>
+                <li><a href="">Conditions</a></li>
+                <li><a href="">Paramètres</a></li>
+            </ul>
         </div>
-
     </div>
 </body>
 
